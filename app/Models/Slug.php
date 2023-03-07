@@ -36,6 +36,7 @@ class Slug extends Model
 
     protected $fillable = [
         'slug',
+        'type',
     ];
 
     protected $casts = [

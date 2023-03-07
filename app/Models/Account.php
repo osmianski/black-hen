@@ -33,6 +33,10 @@ class Account extends Model
 {
     use HasFactory;
 
+    protected $fillable = [
+        'type',
+    ];
+
     protected $casts = [
         'type' => Type::class,
     ];
