@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "121ea3a2fffe49b3ef9aa4d064b28c19",
+    "content-hash": "775ddd0147fc4c3b807300125f4cc46d",
     "packages": [
         {
             "name": "brick/math",
@@ -2202,6 +2202,63 @@
                 }
             ],
             "time": "2023-02-08T01:06:31+00:00"
+        },
+        {
+            "name": "osmianski/laravel-helper",
+            "version": "v0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/osmianski/laravel-helper.git",
+                "reference": "1478345d5e35ac95ebb97c8d62d520726d82ca1b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/osmianski/laravel-helper/zipball/1478345d5e35ac95ebb97c8d62d520726d82ca1b",
+                "reference": "1478345d5e35ac95ebb97c8d62d520726d82ca1b",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": "~10"
+            },
+            "require-dev": {
+                "orchestra/testbench": "~7",
+                "phpunit/phpunit": "~10.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Osmianski\\Helper\\HelperServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Osmianski\\Helper\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Vladislav Osmianskij",
+                    "email": "vlaosm@gmail.com",
+                    "homepage": "https://osmianski.com/"
+                }
+            ],
+            "description": "Helper classes and functions for Laravel development",
+            "homepage": "https://github.com/osmianski/laravel-helper",
+            "keywords": [
+                "helper",
+                "laravel"
+            ],
+            "support": {
+                "issues": "https://github.com/osmianski/laravel-helper/issues",
+                "source": "https://github.com/osmianski/laravel-helper/tree/v0.1.0"
+            },
+            "time": "2023-03-07T15:21:16+00:00"
         },
         {
             "name": "phpoption/phpoption",
