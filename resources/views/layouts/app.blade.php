@@ -13,6 +13,7 @@
 <body>
     <header>
         <a href="{{ route('login.show') }}" title="Sign in">Sign in</a>
+        <a href="{{ route('register.show') }}" title="Sign up">Sign up</a>
     </header>
     {{ $slot }}
     @livewireScripts

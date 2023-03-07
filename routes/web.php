@@ -16,3 +16,4 @@ use App\Http\Livewire;
 
 Route::get('/', Livewire\Home::class)->name('home.show');
 Route::get('/login', Livewire\Login::class)->name('login.show');
+Route::get('/register', Livewire\Register::class)->name('register.show');
